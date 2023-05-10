@@ -1,0 +1,110 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css" >
+    <title>LYBCD - School</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon-32x32.png">
+</head>
+<body>
+<!-- Container -->
+    <div class="container">
+        <!-- sidebar section (left div) -->
+        <div class="sidebar">
+            <!-- LOGO SECTION -->
+            <div class="sidebar_logo">
+                <a><i class="fa-solid fa-school"></i></a>
+                <h1>LYBCD</h1>
+            </div>
+            <div class="sidebar-body">
+                <ul class="sidebar-bodylist">
+                    <li><a href="#welcome">bienvenue</a></li>
+                    <li><a href="#about">Présentation</a></li>
+                    <li><a href="#gallery-one">Première Galerie</a></li>
+                    <li><a href="#gallery-two">Deuxième Galerie</a></li>
+                    <li><a href="#gallery-three">Troisième galerie</a></li>
+                    <li><a href="#contact-us">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- content section (right div) -->
+        
+        <div class="content">
+            <!-- content header section -->
+            <div class="content-header">
+                <img src="img/college_img.jpg">
+            </div>
+            <!-- content welcome section -->
+            <div class="content-welcome" id="welcome">
+                <h2>BIENVENUE SUR LYBCD</h2>
+                <p>Bonjour et bienvenue sur notre site dédié à notre collège ! Ici, vous pourrez découvrir tout ce qu'il y a à savoir sur notre établissement scolaire, qui vise à permettre à chaque élève de s'épanouir et de réussir dans ses études. Nous mettons tout en œuvre pour offrir un environnement propice à l'apprentissage, avec des enseignants motivés et compétents, ainsi que des ressources pédagogiques modernes et adaptées à chaque niveau de classe. N'hésitez pas à parcourir les différentes pages pour en savoir plus !</p>
+            </div>
+            <!-- content about us section -->
+            <div class="content-about" id="about">
+                <div class="content-about-img">
+                    <img src="./img/about img.jpg" alt="about-us" width="300px"/>
+                </div>
+                <div class="content-about-para">
+                    <h3>PRESENTATION DE LYCEE</h3>
+                    <p>Bienvenue sur la page de présentation de notre lycée ! Nous proposons une large gamme de formations allant des filières générales aux filières technologiques et professionnelles, dans un environnement propice à l'épanouissement de nos élèves.</p>
+                    <p class="para2">Notre lycée est également un lieu de vie et d'échange, où les élèves peuvent participer à de nombreuses activités culturelles, sportives et artistiques. Rejoignez-nous pour préparer au mieux votre avenir !</p>
+                    <a onclick="myFunction()">EN SAVOIR PLUS</a>
+                </div>
+            </div>
+            <!-- content gallery one section -->
+            <div class="gallery-one clearfix" id="gallery-one">
+                <h3>Première Galerie</h3>
+                <div class="first-gallery-columun"><img src="./img/galleryone-2.jpg" alt=""></div>
+                <div class="first-gallery-columun"><img src="./img/galleryone-3.jpg" alt=""></div>
+                <div class="first-gallery-columun"><img src="./img/galleryone-5.jpg" alt=""></div>
+                <div class="first-gallery-columun"><img src="./img/galleryone-6.jpg" alt=""></div>
+                <div class="first-gallery-columun"><img src="./img/galleryone-7.jpg" alt=""></div>
+                
+            
+            </div>
+            <!-- content gallery two section -->
+            <div class="gallery-two clearfix" id="gallery-two">
+                <h3>Deuxième Galerie</h3>
+                <div class="Second-gallery-columun"><img src="./img/galleryone-1.jpg" alt=""></div>
+                <div class="Second-gallery-columun"><img src="./img/galleryone-8.jpg" alt=""></div>
+                <div class="Second-gallery-columun"><img src="./img/galleryone-4.jpg" alt=""></div>
+            </div>
+            <!-- content gallery three section -->
+            <div class="gallery-three clearfix" id="gallery-three">
+                <h3>Troisième galerie</h3>
+                <div class="Third-gallery-columun"><img src="./img/galleryone-10.jpg" alt=""></div>
+                <div class="Third-gallery-columun"><img src="./img/galleryone-11.jpg" alt=""></div>
+                <div class="Third-gallery-columun"><img src="./img/galleryone-12.jpg" alt=""></div>
+                <div class="Third-gallery-columun"><img src="./img/galleryone-13.jpg" alt=""></div>
+            </div>
+            <!-- content contact us section -->
+            <div class="contact-us clearfix" id="contact-us">
+                <h3>Contactez Nous</h3>
+                <div class="contact-form">
+                    <form action="mailto:hamg042@gmail.com">
+                        <div class="form-group"><input type="text" placeholder="Name" name="sname"></div>
+                        <div class="form-group"><input type="text" placeholder="Email"></div>
+                        <div class="form-group"><textarea cols="30" rows="8" placeholder="Message" name="ssubject"></textarea></div>
+                        <div class="form-group"><button type="submit" value="Send">Envoyer</button></div>
+                    </form> 
+                </div>
+                <div class="contact-info">
+                    <p>Vous souhaitez nous contacter ? Nous sommes à votre disposition pour répondre à toutes vos questions et vous accompagner dans votre projet. N'hésitez pas à remplir le formulaire de contact ou à nous envoyer un e-mail à l'adresse indiquée ci-dessous. Nous ferons de notre mieux pour vous répondre dans les plus brefs délais. Merci de l'intérêt que vous portez à notre établissement.</p>
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/lyceeibnochohaid/?locale=ar_AR"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://hamza-pg.github.io/PYHM/"><i class="fa-solid fa-blog"></i></a>
+                </div>
+            </div>
+        <!-- content footer section -->
+            <div class="footer">
+                <p>Copyright &copy; 2023 LYBCD - HAMZA AMAANGUER</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+   function myFunction() {
+    alert("Coming soon");
+   }
+</script>
+</html>
