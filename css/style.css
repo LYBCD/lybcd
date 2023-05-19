@@ -296,9 +296,7 @@ i {
     .sidebar-body a {float: left;}
     div.content {margin-left: 0;}
   }
-  .contact-form {
-    display: none;
-}
+ 
   
   @media screen and (max-width: 400px) {
     .sidebar-body a {
