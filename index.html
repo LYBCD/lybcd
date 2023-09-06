@@ -33,6 +33,24 @@
     and python Is the best think I spent the time for It
     -->
 <!-- Container -->
+     <div class="alert" role="alert">
+        <a href="#" id="announcement-link"><strong>Details sur la rentree scolaire</strong> 2023 - 2024 (Lundi 4 Septembre)</a>
+        <span type="button" class="close-btn" data-bs-dismiss="alert" aria-label="Close">&times;</span>
+    </div>
+    <div id="announcement-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Chers élèves et parents,
+
+            Nous sommes ravis de vous annoncer que la rentrée scolaire au Lycée Ibn Chouhaide débutera le lundi 4 septembre. Nous sommes impatients de vous accueillir pour une année d'apprentissage passionnante et enrichissante.
+            
+            N'oubliez pas de vous préparer pour cette nouvelle aventure éducative. Assurez-vous d'avoir tous les fournitures nécessaires et de recharger vos esprits pour une année scolaire fructueuse.
+            
+            Nous avons hâte de vous retrouver au lycée Ibn Chouhaide pour cette nouvelle année académique. À bientôt !
+            
+            L'équipe du Lycée Ibn Chouhaide</p>
+        </div>
+    </div>
     <div class="container">
         <!-- sidebar section (left div) -->
         <div class="sidebar">
@@ -129,5 +147,25 @@
    function myFunction() {
     alert("Coming soon");
    }
+    var modal = document.getElementById("announcement-modal");
+var link = document.getElementById("announcement-link");
+
+// When the link is clicked, show the modal
+link.onclick = function() {
+  modal.style.display = "block";
+};
+
+// When the user clicks the 'x' to close the modal
+var closeBtn = document.getElementsByClassName("close")[0];
+closeBtn.onclick = function() {
+  modal.style.display = "none";
+};
+
+// Close the modal if the user clicks outside the modal
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
 </script>
 </html>
