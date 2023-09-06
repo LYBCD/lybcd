@@ -323,7 +323,7 @@ i {
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
     background-color: rgba(0, 0, 0, 0.7);
   }
   
@@ -333,7 +333,7 @@ i {
     padding: 20px;
     border: 1px solid #888;
     max-width: 80%;
-    line-height: 2.1;
+    line-height: 2.6;
   }
 
   .close {
