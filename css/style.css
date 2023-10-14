@@ -328,14 +328,37 @@ i {
   }
   
   .modal-content {
-    background-color: #fff;
+    background-color: whitesmoke;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     max-width: 80%;
     line-height: 2.6;
   }
-
+.modal-content p a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #243b67;
+    text-align: center;
+    width: 50%;
+    margin: 15px 0px 15px 25%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+.modal-content p a:hover {
+    background-color: white;
+    color:rgb(34, 34, 116);
+}
   .close {
     color: #aaa;
     float: right;
